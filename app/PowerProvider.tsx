@@ -8,7 +8,10 @@ export default function PowerProvider({ children }: PowerProviderProps) {
   useEffect(() => {
     const initApp = async () => {
       try {
-        const { initialize } = await import("@pa-client/power-code-sdk/lib/Lifecycle");
+        const { initialize } = await import(
+          "@pa-client/power-code-sdk/lib/Lifecycle"
+        );
+
         await initialize();
         console.log("Power Platform SDK initialized successfully");
       } catch (error) {
