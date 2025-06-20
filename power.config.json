@@ -1,0 +1,11 @@
+{
+  "appId": "5354a367-52d7-4513-b070-f733eb8bc4bb",
+  "appDisplayName": "NextJs",
+  "description": null,
+  "environmentId": "6b3bfae4-72d9-e6a0-9c9a-804b3366721a",
+  "buildPath": "./dist",
+  "buildEntryPoint": "index.html",
+  "logoPath": "Default",
+  "localAppUrl": "http://localhost:3000/",
+  "connectionReferences": {}
+}
